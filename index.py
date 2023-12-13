@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 # URL của trang web bạn muốn crawl
 url = 'https://dantri.com.vn/tin-moi-nhat.htm'
-
 # Gửi yêu cầu GET đến trang web
 response = requests.get(url)
 
